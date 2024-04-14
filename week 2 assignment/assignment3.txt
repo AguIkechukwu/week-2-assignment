@@ -1,0 +1,25 @@
+what distinguishes a normal HTML element fom semantic HTML elements?
+
+ANSWER:
+semantic HTML elements provide meaning to the content they encapsulate, making them more descriptive and aiding in understanding the structure of a webpage for both humans and search engines.
+They differ from normal HTML elements primarily in their purpose and the clarity they offer to the structure of the document.
+E.g. <header>, <footer>, <nav>, <article>, <section>, <aside>, <main>, <figure>, <figcaption>, <time>,  
+in contrast, normal HTML elements don't carry specific semantic meaning and are often used for layout or styling purposes.
+Examples include <div>, <span>, <b>, <i>, <u>, etc. 
+While these elements are essential for structuring and styling web pages, they lack the semantic clarity and meaning provided by their semantic counterparts
+
+Disparity between closing tags and self closing tag
+
+ANSWER:
+Closing tags are used to mark the end of an element's content, while self-closing tags are used when an element has no content to enclose. 
+For example, <div> has an opening tag <div> and a closing tag </div>, enclosing content between them. On the other hand, an element like <img> doesn't have content and is self-closed as <img />
+
+What distinguishes inline elements from block element in HTML
+
+ANSWER:
+Inline elements and block elements in HTML differ primarily in how they behave in terms of layout and structure within a webpage:
+Inline elements flow within the text and do not start on a new line. They only take up as much width as necessary and do not force new lines. 
+Examples include <span>, <a>, <strong>, <em>, <img>, <input>. They can be nested within block-level elements and other inline elements.
+Block elements always start on a new line and take up the full width available (unless specified otherwise). They create "blocks" of content. 
+Examples include <div>, <p>, <h1> to <h6>, <ul>, <li>, <table>, etc. Block elements can contain other block elements as well as inline elements.
+In summary, inline elements flow within text and do not force new lines, while block elements start on a new line and take up the full width available.
